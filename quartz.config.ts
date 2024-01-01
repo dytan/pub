@@ -1,15 +1,21 @@
+/*
+ * @FilePath: /quartz/quartz.config.ts
+ * @LastModifiedBy: dytan
+ * @LastEditTime: 2024-01-01 21:04:43
+ * @Description: 
+ */
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🐈‍⬛ Di's Recording",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "dytan.github.io/pub",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

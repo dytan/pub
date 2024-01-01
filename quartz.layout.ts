@@ -1,3 +1,9 @@
+/*
+ * @FilePath: /quartz/quartz.layout.ts
+ * @LastModifiedBy: dytan
+ * @LastEditTime: 2024-01-01 20:50:51
+ * @Description: 
+ */
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
@@ -7,8 +13,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/dytan",
     },
   }),
 }
