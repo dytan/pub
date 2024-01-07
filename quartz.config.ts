@@ -1,7 +1,7 @@
 /*
  * @FilePath: /quartz/quartz.config.ts
  * @LastModifiedBy: dytan
- * @LastEditTime: 2024-01-01 21:04:43
+ * @LastEditTime: 2024-01-07 15:13:50
  * @Description: 
  */
 import { QuartzConfig } from "./quartz/cfg"
@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🐈‍⬛ Di's Recording",
+    pageTitle: "🐈‍⬛ Di's Memos",
     enableSPA: true,
     enablePopovers: true,
     analytics: {

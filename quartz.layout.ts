@@ -1,7 +1,7 @@
 /*
  * @FilePath: /quartz/quartz.layout.ts
  * @LastModifiedBy: dytan
- * @LastEditTime: 2024-01-01 20:50:51
+ * @LastEditTime: 2024-01-07 15:22:14
  * @Description: 
  */
 import { PageLayout, SharedLayout } from "./quartz/cfg"
@@ -15,6 +15,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/dytan",
     },
+    beian: "浙ICP备2023044586号-1"
   }),
 }
 

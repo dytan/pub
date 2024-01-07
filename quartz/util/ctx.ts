@@ -1,3 +1,4 @@
+
 import { QuartzConfig } from "../cfg"
 import { FullSlug } from "./path"
 
@@ -10,6 +11,7 @@ export interface Argv {
   wsPort: number
   remoteDevHost?: string
   concurrency?: number
+  beian?: string
 }
 
 export interface BuildCtx {
