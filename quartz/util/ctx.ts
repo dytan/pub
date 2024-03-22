@@ -11,7 +11,7 @@ export interface Argv {
   wsPort: number
   remoteDevHost?: string
   concurrency?: number
-  beian?: string
+  record?: string
 }
 
 export interface BuildCtx {

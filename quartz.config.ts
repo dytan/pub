@@ -1,4 +1,10 @@
 /*
+ * @FilePath: \pub\quartz.config.ts
+ * @LastModifiedBy: minliu
+ * @LastEditTime: 2024-03-22 11:18:42
+ * @Description: 
+ */
+/*
  * @FilePath: /quartz/quartz.config.ts
  * @LastModifiedBy: dytan
  * @LastEditTime: 2024-01-07 15:13:50
@@ -16,7 +22,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "dytan.github.io/pub",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_templates"],
     defaultDateType: "created",
     theme: {
       typography: {

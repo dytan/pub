@@ -100,8 +100,8 @@ export const BuildArgv = {
         number: true,
         describe: "how many threads to use to parse notes",
     },
-    beian: {
+    record: {
         string: true,
-        describe: "beian number",
+        describe: "record number",
     },
 }

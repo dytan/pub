@@ -1,3 +1,9 @@
+/*
+ * @FilePath: \pub\quartz\components\index.ts
+ * @LastModifiedBy: minliu
+ * @LastEditTime: 2024-03-22 11:12:45
+ * @Description: 
+ */
 import Content from "./pages/Content"
 import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
@@ -19,6 +25,7 @@ import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
+import Comments from "./Comments"
 
 export {
   ArticleTitle,
@@ -42,4 +49,5 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
+  Comments
 }

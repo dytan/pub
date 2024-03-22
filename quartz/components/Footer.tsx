@@ -1,8 +1,10 @@
 /*
- * @FilePath: /quartz/quartz/components/Footer.tsx
- * @LastModifiedBy: dytan
- * @LastEditTime: 2024-01-07 15:39:05
+ * @FilePath: \pub\quartz\components\Footer.tsx
+ * @LastModifiedBy: minliu
+ * @LastEditTime: 2024-03-22 11:14:51
  * @Description: 
+ */
+/*
  */
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
@@ -10,16 +12,18 @@ import { version } from "../../package.json"
 
 interface Options {
   links: Record<string, string>
-  beian: string
+  record: string
 }
 
 export default ((opts?: Options) => {
   function Footer({ displayClass }: QuartzComponentProps) {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
-    const beian = opts?.beian ?? ""
+    const record = opts?.record ?? ""
     return (
       <footer class={`${displayClass ?? ""}`}>
+        <hr />
+        <div class="giscus"></div>
         <hr />
         <p>
           Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}
@@ -34,7 +38,7 @@ export default ((opts?: Options) => {
         </ul>
 
         <p>
-        <a href="https://beian.miit.gov.cn/" target="_blank">{beian}</a>
+        <a href="https://beian.miit.gov.cn/" target="_blank">{record}</a>
         </p>
       </footer>
     )

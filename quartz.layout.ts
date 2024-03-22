@@ -1,7 +1,7 @@
 /*
- * @FilePath: /quartz/quartz.layout.ts
+ * @FilePath: \pub\quartz.layout.ts
  * @LastModifiedBy: dytan
- * @LastEditTime: 2024-01-07 15:22:14
+ * @LastEditTime: 2024-03-22 11:13:08
  * @Description: 
  */
 import { PageLayout, SharedLayout } from "./quartz/cfg"
@@ -15,7 +15,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/dytan",
     },
-    beian: "浙ICP备2023044586号-1"
+    record: "浙ICP备2023044586号-1"
   }),
 }
 
@@ -26,6 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.Comments(),
   ],
   left: [
     Component.PageTitle(),
